@@ -1,7 +1,7 @@
 /*
   basic definitions
  */
-@import url(https://fonts.googleapis.com/css?family=Exo+2:300,700|Open+Sans:300,700|PT+Sans:400,700|Play:400,700|Source+Code+Pro:300&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200,700|Open+Sans:200,700|Source+Code+Pro:300&subset=latin,cyrillic);
 
 * {
   -moz-box-sizing: border-box;
