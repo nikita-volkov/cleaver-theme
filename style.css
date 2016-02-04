@@ -1,8 +1,8 @@
 /*
   basic definitions
  */
-@import url(https://fonts.googleapis.com/css?family=Exo+2:300,600&subset=latin,cyrillic);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,700|Open+Sans:300,700|PT+Sans:400,700|Play:400,700|Source+Code+Pro:300&subset=latin,cyrillic);
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -10,7 +10,7 @@
 }
 
 body, html, h1, h2, h3, h4, ol, ul {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   font-weight: 100;
