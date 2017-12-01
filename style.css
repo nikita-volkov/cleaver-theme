@@ -1,4 +1,7 @@
 /*
+The color scheme ref: https://coolors.co/f9f4ea-f7f7f7-89bcd3-6d6d6d-3d4349
+
+
   basic definitions
  */
 @import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,400,700|Open+Sans:300|Source+Code+Pro:300&subset=latin,cyrillic);
@@ -11,6 +14,7 @@
 
 body, html, h1, h2, h3, h4, ol, ul {
   font-family: 'Exo 2', sans-serif;
+  color: #F7F7F7;
   margin: 0;
   padding: 0;
   font-weight: 100;
@@ -37,7 +41,7 @@ h3 {
   line-height: 54px;
   font-weight: 100;
   border-bottom: 1px solid #fff;
-  background-color: #efefef;
+  background-color: #F7F7F7;
   position: absolute;
   top: 0;
   width: 100%;
@@ -55,12 +59,12 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #66b5ff;
+  color: #89BCD3;
   font-weight: 400;
 }
 
 a:hover {
-  color: #44a4dd;
+  color: #89BCD3;
 }
 
 p, ol, ul {
@@ -90,7 +94,7 @@ body, html, .slide {
 }
 
 .slide {
-  background-color: #efefef;
+  background-color: #000;
   display: flex;
   align-items: center;
   padding: 0 40px;
@@ -107,7 +111,7 @@ body, html, .slide {
 }
 
 .slide:nth-child(even) {
-  background-color: #efefef;
+  /*background-color: #efefef;*/
 }
 
 .slide-content {
@@ -131,7 +135,7 @@ ul, ol {
   left: 0px;
   height: 5px;
   z-index: 100;
-  background-color: #8FD129;
+  background-color: #89BCD3;
   -webkit-transition: width 0.3s ease;  
   -moz-transition:    width 0.3s ease;
   -ms-transition:     width 0.3s ease; 
@@ -152,8 +156,8 @@ code, pre {
   padding: 6px 10px;
   font-family: 'Source Code Pro';
   font-weight: 300;
-  background-color: #fff;
-  color: #160002;
+  background-color: #3D4349;
+  color: #F9F4EA;
 }
 
 code {
