@@ -34,6 +34,10 @@ h3 {
   z-index: 10;
 }
 
+.author h3 {
+  position: relative;
+}
+
 h4 {
   margin-bottom: 10px;
 }
@@ -191,6 +195,10 @@ code, pre {
   font-style: italic;
 }
 
+.author h3 {
+  font-size: 34px;
+}
+
 
 /*
 COLORS
@@ -207,11 +215,10 @@ https://coolors.co/ffc654-f7f7f7-ce4685-9cdefc-111214
 body, html, ol, ul { color: #F7F7F7; }
 h1, h2, h3, h4, h5, h6 { color: #9CDEFC; }
 .slide { background-color: #000; }
-code, pre { color: #F9C866; background-color: #111214; border-color: #F9C866; }
 code, pre { color: #F7F7F7; border-color: #F7F7F7; background-color: #111214; }
 .progress-bar { background-color: #89BCD3; }
-a { color: #89BCD3; }
-a:hover { color: #89BCD3; }
+a { color: #F7F7F7; }
+a:hover { color: #F7F7F7; }
 b, strong { color: #F9C866; }
 h3 { border-bottom-color: #fff background-color: #F7F7F7; }
 
