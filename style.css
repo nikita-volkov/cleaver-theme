@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,400,700|Open+Sans:300|Source+Code+Pro:300&subset=latin,cyrillic);
 
+/*
+LAYOUT
+------
+*/
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -7,32 +12,19 @@
 }
 
 body, html, h1, h2, h3, h4, ol, ul {
-  font-family: 'Exo 2', sans-serif;
   margin: 0;
   padding: 0;
-  font-weight: 100;
-  font-size: 18px;
-  line-height: 23px;
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 70px;
   text-align: center;
 }
 
 h2 {
-  font-size: 50px;
-  line-height: 60px;
-  font-weight: 100;
   text-align: center;
 }
 
 h3 {
-  font-size: 44px;
-  line-height: 54px;
-  font-weight: 100;
   border-bottom: 1px solid;
   position: absolute;
   top: 0;
@@ -43,20 +35,7 @@ h3 {
 }
 
 h4 {
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 400;
   margin-bottom: 10px;
-}
-
-a {
-  text-decoration: none;
-  font-weight: 400;
-}
-
-p, ol, ul {
-  font-size: 34px;
-  line-height: 44px;
 }
 
 .center {
@@ -66,10 +45,6 @@ p, ol, ul {
 img {
   margin: 0 auto;
   display: block;
-}
-
-strong {
-  font-weight: 400;
 }
 
 /*
@@ -129,8 +104,6 @@ code, pre {
   border-radius: 3px;
   overflow: auto;
   padding: 6px 10px;
-  font-family: 'Source Code Pro';
-  font-weight: 300;
 }
 
 code {
@@ -149,6 +122,62 @@ pre > code {
   padding: 0.5em;
 }
 
+
+/*
+FONTS
+-----
+*/
+
+body, html, h1, h2, h3, h4, ol, ul {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+p, ol, ul {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+code, pre {
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+}
+
 .hljs-strong {
   font-weight: bold;
 }
@@ -156,7 +185,6 @@ pre > code {
 .hljs-emphasis {
   font-style: italic;
 }
-
 
 
 /*
