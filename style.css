@@ -96,10 +96,6 @@ body, html, .slide {
   transition:         opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.slide:nth-child(even) {
-  /*background-color: #efefef;*/
-}
-
 .slide-content {
   flex-basis: 100%;
 }
