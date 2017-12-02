@@ -195,6 +195,8 @@ A one stop shop for changing colors.
 
 The current color scheme ref:
 https://coolors.co/f9c866-f7f7f7-6d6565-9cdefc-111214
+https://coolors.co/ffc654-f7f7f7-ce1e1e-9cdefc-111214
+https://coolors.co/ffc654-f7f7f7-ce4685-9cdefc-111214
 */
 
 body, html, ol, ul { color: #F7F7F7; }
@@ -225,7 +227,7 @@ HLJS COLORS
 }
 
 .hljs-keyword {
-  color: #F7F7F7;
+  color: #CE1E1E;
 }
 
 .hljs,
@@ -242,23 +244,23 @@ HLJS COLORS
 .hljs-name,
 .hljs-type,
 .hljs-attr,
-.hljs-symbol,
+.hljs-symbol
 .hljs-bullet,
 .hljs-addition,
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-  color: #F9C866;
+  color: #FFC654;
 }
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion {
-  color: #6272a4;
+  color: #ce4685;
 }
 
 .hljs-literal,
 .hljs-number {
-  color: #bd93f9;
+  color: #B546CE;
 }
 
